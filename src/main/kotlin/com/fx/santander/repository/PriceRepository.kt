@@ -16,4 +16,8 @@ class PriceRepository {
 
     fun getPrice(instrument: Instrument): Price? =
         items[instrument]
+
+    fun deleteAll() {
+        items.clear()
+    }
 }
