@@ -1,6 +1,6 @@
 # market-price-handler-exercise
 
-#Description:
+## Description:
 The application consists of three modules:
 /main - source code
 /test - unit tests
@@ -8,5 +8,5 @@ The application consists of three modules:
 
 The easiest way to test this application is to run integration tests. They simulate new events on the message broker and then check if the appropriate values are exposed by the Rest API
 
-#Assumption:
+## Assumption:
 It was assumed that the queuing system can serve events without keeping the order according to the timestamp
